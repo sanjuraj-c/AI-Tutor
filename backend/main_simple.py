@@ -20,7 +20,7 @@ app.add_middleware(
 )
 
 # Get API key
-api_key = os.getenv("OPENAI_API_KEY") or "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"
+api_key = os.getenv("OPENAI_API_KEY") 
 
 # Initialize OpenAI client (OpenRouter compatible)
 client = openai.OpenAI(
