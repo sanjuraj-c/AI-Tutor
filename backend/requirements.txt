@@ -1,0 +1,16 @@
+fastapi==0.120.0
+uvicorn[standard]==0.38.0
+openai==2.6.1
+python-dotenv==1.1.1
+pydantic==2.12.3
+
+# RAG stack
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-openai==0.2.6
+chromadb==0.5.5
+sentence-transformers==3.2.1
+duckduckgo-search==6.3.7
+numpy==1.26.4
+
+
